@@ -168,9 +168,6 @@ function showDetails(id){
     qrCanvas.replaceChildren();
   }
 
-  // Add download button for teachers/admins above the attendees list
-  const downloadBtn = `<button id="download-btn" class="btn secondary" style="margin:8px 0;">Download Attendee List (CSV)</button>`;
-  
   // Build Attendees panel for Teacher/Admin
   let adminPanel = q('#attend-panel');
   if (!adminPanel){
